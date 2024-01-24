@@ -19,11 +19,11 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/terraform-providers/terraform-provider-random/internal/diagnostics"
-	boolplanmodifiers "github.com/terraform-providers/terraform-provider-random/internal/planmodifiers/bool"
-	mapplanmodifiers "github.com/terraform-providers/terraform-provider-random/internal/planmodifiers/map"
-	stringplanmodifiers "github.com/terraform-providers/terraform-provider-random/internal/planmodifiers/string"
-	"github.com/terraform-providers/terraform-provider-random/internal/random"
+	"github.com/AmazeCom/terraform-provider-random/internal/diagnostics"
+	boolplanmodifiers "github.com/AmazeCom/terraform-provider-random/internal/planmodifiers/bool"
+	mapplanmodifiers "github.com/AmazeCom/terraform-provider-random/internal/planmodifiers/map"
+	stringplanmodifiers "github.com/AmazeCom/terraform-provider-random/internal/planmodifiers/string"
+	"github.com/AmazeCom/terraform-provider-random/internal/random"
 )
 
 var (

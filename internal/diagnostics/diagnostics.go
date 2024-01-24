@@ -49,3 +49,14 @@ func RandomnessGenerationError(errMsg string) diag.Diagnostics {
 
 	return diags
 }
+
+func ImportOnlyError() diag.Diagnostics {
+	var diags diag.Diagnostics
+
+	diags.AddError(
+		"Import Only Error",
+		"While attempting to generate a random value for this resource, the import_only attribute was true.\n\n",
+	)
+
+	return diags
+}

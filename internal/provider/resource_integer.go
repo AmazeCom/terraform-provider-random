@@ -16,8 +16,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	mapplanmodifiers "github.com/terraform-providers/terraform-provider-random/internal/planmodifiers/map"
-	"github.com/terraform-providers/terraform-provider-random/internal/random"
+	mapplanmodifiers "github.com/AmazeCom/terraform-provider-random/internal/planmodifiers/map"
+	"github.com/AmazeCom/terraform-provider-random/internal/random"
 )
 
 var (

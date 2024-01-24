@@ -1,4 +1,4 @@
-module github.com/terraform-providers/terraform-provider-random
+module github.com/AmazeCom/terraform-provider-random
 
 go 1.20
 

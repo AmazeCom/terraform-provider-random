@@ -18,7 +18,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	mapplanmodifiers "github.com/terraform-providers/terraform-provider-random/internal/planmodifiers/map"
+	mapplanmodifiers "github.com/AmazeCom/terraform-provider-random/internal/planmodifiers/map"
 )
 
 var _ resource.Resource = (*petResource)(nil)

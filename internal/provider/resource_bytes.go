@@ -20,7 +20,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/terraform-providers/terraform-provider-random/internal/diagnostics"
+	"github.com/AmazeCom/terraform-provider-random/internal/diagnostics"
 )
 
 var (
